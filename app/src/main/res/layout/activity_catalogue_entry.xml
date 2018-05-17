@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.legolambnon.rejestrpolowu.CatalogueEntryActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editBait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editFishery"
+            android:layout_toEndOf="@+id/textBait"
+            android:layout_toRightOf="@+id/textBait"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="363dp" />
+
+        <TextView
+            android:id="@+id/textBait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Przynęta:"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="383dp"
+            android:layout_below="@+id/textFishery"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/editFishery"
+            android:layout_toStartOf="@+id/editFishery"
+            android:layout_alignBottom="@+id/editBait" />
+
+        <EditText
+            android:id="@+id/editFishery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="321dp"
+            android:layout_below="@+id/btnDate2"
+            android:layout_toRightOf="@+id/textFishery"
+            android:layout_toEndOf="@+id/textFishery" />
+
+        <TextView
+            android:id="@+id/textFishery"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Łowisko:"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="341dp"
+            android:layout_below="@+id/textDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/btnDate2"
+            android:layout_alignBottom="@+id/editFishery"
+            android:layout_toLeftOf="@+id/btnDate2" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Data: "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="234dp"
+            android:layout_below="@+id/textWeight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/editWeight"
+            android:layout_toStartOf="@+id/editWeight"
+            android:layout_above="@+id/editFishery" />
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editLength"
+            android:layout_toEndOf="@+id/textWeight"
+            android:layout_toRightOf="@+id/textWeight"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/textWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Waga: "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="254dp"
+            android:layout_below="@+id/textLength"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/editLength"
+            android:layout_toStartOf="@+id/editLength"
+            android:layout_alignBottom="@+id/editWeight" />
+
+        <TextView
+            android:id="@+id/textLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Długość: "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="212dp"
+            android:layout_below="@+id/textSpecies"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/editLength"
+            android:layout_toLeftOf="@+id/editSpecies"
+            android:layout_toStartOf="@+id/editSpecies" />
+
+        <EditText
+            android:id="@+id/editLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="192dp"
+            android:layout_below="@+id/editSpecies"
+            android:layout_toRightOf="@+id/textLength"
+            android:layout_toEndOf="@+id/textLength" />
+
+        <EditText
+            android:id="@+id/editSpecies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textSpecies"
+            android:layout_toRightOf="@+id/textSpecies"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <TextView
+            android:id="@+id/textSpecies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Gatunek: "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="170dp"
+            android:layout_alignBottom="@+id/editSpecies"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:gravity="center_vertical"
+            android:text="Pogoda:"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="448dp"
+            android:layout_below="@+id/textTime"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/btnHour2"
+            android:layout_alignBottom="@+id/editWeather"
+            android:layout_toLeftOf="@+id/btnHour2" />
+
+        <EditText
+            android:id="@+id/editWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_below="@+id/btnHour2"
+            android:layout_toRightOf="@+id/textWeather"
+            android:layout_toEndOf="@+id/textWeather" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuń Wpis"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zapisz zmiany"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="447dp"
+            android:layout_alignBaseline="@+id/btnDelete"
+            android:layout_alignBottom="@+id/btnDelete"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="19dp"
+            android:layout_marginEnd="19dp" />
+
+        <Button
+            android:id="@+id/btnAddPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onImageGalleryClicked"
+            android:text="Dodaj zdjęcie"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="383dp"
+            android:layout_alignBaseline="@+id/btnShowPhoto"
+            android:layout_alignBottom="@+id/btnShowPhoto"
+            android:layout_alignLeft="@+id/btnUpdate"
+            android:layout_alignStart="@+id/btnUpdate" />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:gravity="center_vertical"
+            android:text="Godzina:"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="416dp"
+            android:layout_below="@+id/textBait"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/editBait"
+            android:layout_toStartOf="@+id/editBait"
+            android:layout_above="@+id/editWeather" />
+
+        <Button
+            android:id="@+id/btnShowPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokaż zdjęcie"
+            android:layout_above="@+id/btnDelete"
+            android:layout_alignLeft="@+id/btnDelete"
+            android:layout_alignStart="@+id/btnDelete"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/btnDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editWeight"
+            android:layout_toEndOf="@+id/textDate"
+            android:layout_toRightOf="@+id/textDate"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnHour2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editBait"
+            android:layout_toEndOf="@+id/textTime"
+            android:layout_toRightOf="@+id/textTime"
+            android:text="Button" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

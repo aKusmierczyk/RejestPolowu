@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnDate" type="id">Wybierz datę</item>
+    <item name="get_length" type="id" />
+    <item name="get_weight" type="id" />
+    <item name="get_area" type="id" />
+    <item name="btnSave" type="id">Zapisz</item>
+    <item name="btnLoad" type="id">load</item>
+    <item name="testView" type="id">testView</item>
+    <item name="listViewCatalogue" type="id">listViewCatalogue</item>
+    <item name="btnTestClear" type="id">testClear</item>
+    <item name="testSize" type="id">testSize</item>
+    <item name="btnTestSize" type="id">btnTestSize</item>
+    <item name="get_bait" type="id" />
+</resources>

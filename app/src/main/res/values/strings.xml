@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Rejestr Połowu</string>
+    <string name="btnGoTo">Dalej</string>
+    <string name="btnEntry">Dodaj wpis</string>
+    <string name="btnCatalogue">Katalog</string>
+    <string name="species">Gatunek:</string>
+    <string name="length">Długość (cm):</string>
+    <string name="weight">Waga (g):</string>
+    <string name="date">Data połowu:</string>
+    <string name="btnDate">Wybierz datę:</string>
+    <string name="area">Łowisko:</string>
+    <string name="btnSave">Zapisz</string>
+    <string name="btnLoad">load</string>
+    <string name="btnTestClear">TestClear</string>
+    <string name="TestSize">btnTestSize</string>
+
+    <string-array name="species">
+        <item>Amur biały</item>
+        <item>Belona</item>
+        <item>Boleń</item>
+        <item>Brzana</item>
+        <item>Certa</item>
+        <item>Dorsz</item>
+        <item>Flądra</item>
+        <item>Gładzica</item>
+        <item>Głowacica</item>
+        <item>Jaź</item>
+        <item>Jelec</item>
+        <item>Jesiotr</item>
+        <item>Karaś pospolity</item>
+        <item>Karaś srebrzysty</item>
+        <item>Karp</item>
+        <item>Kleń</item>
+        <item>Krąp</item>
+        <item>Leszcz</item>
+        <item>Lin</item>
+        <item>Lipień</item>
+        <item>Łosoś</item>
+        <item>Miętus</item>
+        <item>Okoń</item>
+        <item>Płoć</item>
+        <item>Pstrąg potokowy</item>
+        <item>Pstrąg tęczowy</item>
+        <item>Pstrąg źródlany</item>
+        <item>Rozpiór</item>
+        <item>Sandacz</item>
+        <item>Sapa</item>
+        <item>Sieja</item>
+        <item>Sielawa</item>
+        <item>Stornia</item>
+        <item>Sum</item>
+        <item>Szczupak</item>
+        <item>Świnka</item>
+        <item>Tołpyga biała</item>
+        <item>Tołpyga pstra</item>
+        <item>Troć jeziorowa</item>
+        <item>Troć wędrowna</item>
+        <item>Turbot</item>
+        <item>Ukleja</item>
+        <item>Węgorz</item>
+        <item>Wzdręga</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Gatunek: </item>
+        <item>Długość: </item>
+        <item>Waga: </item>
+        <item>Data: </item>
+        <item>Łowisko: </item>
+        <item>Przynęta: </item>
+    </string-array>
+
+</resources>
