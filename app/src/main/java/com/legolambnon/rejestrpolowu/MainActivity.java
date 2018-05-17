@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
         //ads
 
-        MobileAds.initialize(this, "ca-app-pub-7452133748145052~6952649373");
+    
 
         final InterstitialAd mInterstitialAd = new InterstitialAd(this);
         //real ad
-        mInterstitialAd.setAdUnitId("ca-app-pub-7452133748145052/6671649599");
+   
 
         //testad
         //mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
